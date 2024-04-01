@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: grpc-spring-client
+
+server:
+  port: 8081
+
+hello:
+  grpc:
+    service:
+      host: localhost
+      port: 9991
